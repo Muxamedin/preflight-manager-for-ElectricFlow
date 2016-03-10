@@ -1,4 +1,4 @@
-# Copyright (c) 2016 Bmikhail Solutions
+# Copyright (c) 2016 BMikhail Solutions
 # Package for ElectricFlow preflight 
 
 proc getInformationByNodeName {xmlArr nName } {
@@ -129,3 +129,4 @@ proc getPreflightStructure {} {
 }
 
 View
+puts "Hi"
