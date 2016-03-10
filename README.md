@@ -12,9 +12,3 @@ Application should be able invokes preflights by just edited values  , and  to s
 # Platforms:
 Expected that should work on Linux and MacOs - but development continue on Windows 8
 Last step to convert tcl file to executable for 3 platforms
-
-# How to use :
-Main file preflight.tcl
-command line : wish /path_to/preflight.tcl /path_to/xml.xml
-or invoke :    tclsh /path_to/exe.tcl
-another files - files for creating tree from xml file - just in design
