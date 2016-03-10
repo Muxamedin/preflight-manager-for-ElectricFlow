@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data>
     <server>
-        <hostName>chronic3</hostName>
-        <userName>bmikhail</userName>
-        <password>bcmgtkbw</password>
+        <hostName>chronic-builder</hostName>
+        <userName>Mike</userName>
+        <password>Kolosok</password>
     </server>
     <procedure>
         <projectName>Commander</projectName>
@@ -14,11 +14,11 @@
         </parameter>
         <parameter>
             <name>preFlightUser</name>
-            <value>bmikhail</value>
+            <value>Mike</value>
         </parameter>
         <parameter>
             <name>branch</name>
-            <value>main</value>
+            <value>92</value>
         </parameter>
         <parameter>
             <name>doDbDump</name>
@@ -32,8 +32,6 @@
             <name>skipServerUnitTests</name>
             <value>0</value>
         </parameter>
-		
-        
         <parameter>
             <name>skipOnWindows</name>
             <value>0</value>
@@ -68,11 +66,6 @@
             <name>skipOnSolaris</name>
             <value>1</value>
         </parameter>
-        
-        <parameter>
-            <name>skipServerUnitTests</name>
-            <value>0</value>
-        </parameter>
         <parameter>
             <name>parallelModtest</name>
             <value>0</value>
@@ -83,14 +76,14 @@
         </parameter>
 		<parameter>
 			<name>preFlightTag</name>
-			<value>UNinstallAction-WIN</value>
+			<value>debugging-uninst-Action-WIN</value>
 		</parameter>
     </procedure>
     <scm>
         <type>perforce</type>
-        <client>bmikhail-nimbus-main</client>
-        <port>p4:3710</port>
-        <user>bmikhail</user>
-        <template>build-commander-main</template>
+        <client>Mike-nimbus-92</client>
+        <port>p4:7238</port>
+        <user>Mike</user>
+        <template>build-commander-92</template>
     </scm>
 </data>
